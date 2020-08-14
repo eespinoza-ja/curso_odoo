@@ -10,7 +10,7 @@
                 <notebook position="inside">
                     <page string="Sessions">
                         <group>
-                            <!-- <field name="instructor"/>-->
+                            <field name="instructor"/>
                             <field name="session_ids"/>
                         </group>
                     </page>
