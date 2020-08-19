@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 class Wizard(models.TransientModel):
     _name = 'openacademy.wizard'
-    #_description = "Wizard: Quick Registration of Attendees to Sessions"
+    _description = "Wizard: Quick Registration of Attendees to Sessions"
 
     def _default_sessions(self):
         return self.env['openacademy.session'].browse(self._context.get('active_ids'))
