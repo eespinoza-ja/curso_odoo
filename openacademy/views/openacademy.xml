@@ -205,15 +205,44 @@
         </field>
     </record>
 
+    <!-- Session Wizard View -->
+    <record model="ir.ui.view" id="wizard_form_view">
+        <field name="name">wizard.form</field>
+        <field name="model">openacademy.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Add Attendees">
+                <group>
+                    <field name="session_ids"/>
+                    <field name="attendee_ids"/>
+                </group>
+                <footer>
+                    <button name="subscribe" type="object"
+                            string="Subscribe" class="oe_highlight"/>
+                    or
+                    <button special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
     <!-- Session Window Action -->
     <record model="ir.actions.act_window" id="session_list_action">
-        <field name="name">Sessions</field>
-        <field name="res_model">openacademy.session</field>
-        <field name="view_mode">tree,form,calendar,gantt,graph,kanban</field>
+    <field name="name">Sessions</field>
+    <field name="res_model">openacademy.session</field>
+    <field name="view_mode">tree,form,calendar,gantt,graph,kanban</field>
     </record>
+
+
+    <act_window id="launch_session_wizard"
+                    name="Add Attendees"
+                    binding_model="openacademy.session"
+                    res_model="openacademy.wizard"
+                    view_mode="form"
+                    target="new"/>
+
 
     <!-- Session Menus -->
     <menuitem id="session_menu" name="Sessions"
-              parent="openacademy_menu"
-              action="session_list_action"/>
+          parent="openacademy_menu"
+          action="session_list_action"/>
 </odoo>
