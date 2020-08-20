@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 20:33+0000\n"
-"PO-Revision-Date: 2020-08-19 15:37-0500\n"
+"PO-Revision-Date: 2020-08-20 01:00-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,14 +22,18 @@ msgstr ""
 msgid ""
 "<br/>\n"
 "                                Start date:"
-msgstr "Fecha de Inicio"
+msgstr ""
+"<br/>\n"
+"                                Fecha de Inicio:"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.view_openacad_session_kanban
 msgid ""
 "<br/>\n"
 "                                duration:"
-msgstr "Duración:"
+msgstr ""
+"<br/>\n"
+"                                Duración:"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__active
@@ -77,206 +81,206 @@ msgstr "Configuración"
 #. module: openacademy
 #: model:ir.model,name:openacademy.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: openacademy
 #: model:ir.actions.act_window,name:openacademy.contact_list_action
 #: model:ir.ui.menu,name:openacademy.contact_menu
 msgid "Contacts"
-msgstr ""
+msgstr "Contactos"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__course_id
 msgid "Course"
-msgstr ""
+msgstr "Curso"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.course_form_view
 msgid "Course Form"
-msgstr ""
+msgstr "Formulario del Curso"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.course_tree_view
 msgid "Course Tree"
-msgstr ""
+msgstr "Árbol del Curso"
 
 #. module: openacademy
 #: model:ir.actions.act_window,name:openacademy.course_list_action
 #: model:ir.ui.menu,name:openacademy.courses_menu
 msgid "Courses"
-msgstr ""
+msgstr "Cursos"
 
 #. module: openacademy
 #: model_terms:ir.actions.act_window,help:openacademy.course_list_action
 msgid "Create the first course"
-msgstr ""
+msgstr "Crear el Primer Curso"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__create_uid
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__create_uid
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__create_date
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__create_date
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado en"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.view_openacad_session_kanban
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__description
 #: model_terms:ir.ui.view,arch_db:openacademy.course_form_view
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__display_name
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__display_name
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre en Pantalla"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__duration
 msgid "Duration"
-msgstr ""
+msgstr "Duración"
 
 #. module: openacademy
 #: model:ir.model.fields,help:openacademy.field_openacademy_session__duration
 msgid "Duration in days"
-msgstr ""
+msgstr "Duración en días"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__hours
 msgid "Duration in hours"
-msgstr ""
+msgstr "Duración en horas"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__end_date
 msgid "End Date"
-msgstr ""
+msgstr "Fecha Final"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_form_view
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.course_search_view
 msgid "Group By"
-msgstr ""
+msgstr "Agrupado por"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__id
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__id
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__instructor_id
 msgid "Instructor"
-msgstr ""
+msgstr "Instructor"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course____last_update
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session____last_update
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última Modificación en"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__write_uid
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__write_uid
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última Modificación por"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__write_date
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__write_date
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última Actualización en"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.course_search_view
 msgid "My Courses"
-msgstr ""
+msgstr "Mis Cursos"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__name
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__seats
 msgid "Number of seats"
-msgstr ""
+msgstr "Número de Asientos"
 
 #. module: openacademy
 #: model:ir.ui.menu,name:openacademy.main_openacademy_menu
 #: model:ir.ui.menu,name:openacademy.openacademy_menu
 msgid "Open Academy"
-msgstr ""
+msgstr "Open Academy"
 
 #. module: openacademy
 #: model:res.groups,name:openacademy.group_manager
 msgid "OpenAcademy / Manager"
-msgstr ""
+msgstr "Administrador OpenAcademy"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.openacademy_session_graph_view
 msgid "Participations by Courses"
-msgstr ""
+msgstr "Participaciones según Cursos"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.course_form_view
 msgid "Registered sessions"
-msgstr ""
+msgstr "Sesiones Registradas"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__responsible_id
 #: model_terms:ir.ui.view,arch_db:openacademy.course_search_view
 msgid "Responsible"
-msgstr ""
+msgstr "Responsable"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_form_view
 msgid "Schedule"
-msgstr ""
+msgstr "Agenda"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_calendar_view
 msgid "Session Calendar"
-msgstr ""
+msgstr "Calendario de Sesión"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_form_view
 msgid "Session Form"
-msgstr ""
+msgstr "Formulario de Sesión"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_gantt_view
 msgid "Session Gantt"
-msgstr ""
+msgstr "Gantt de Sesión"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.session_tree_view
 msgid "Session Tree"
-msgstr ""
+msgstr "Árbol de Sesión"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.view_openacad_session_kanban
 msgid "Session name:"
-msgstr ""
+msgstr "Nombre de la Sesión:"
 
 #. module: openacademy
 #: model:ir.actions.act_window,name:openacademy.session_list_action
@@ -286,58 +290,58 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:openacademy.course_form_view
 #: model_terms:ir.ui.view,arch_db:openacademy.partner_instructor_form_view
 msgid "Sessions"
-msgstr ""
+msgstr "Sesiones"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__start_date
 msgid "Start Date"
-msgstr ""
+msgstr "Fecha Inicial"
 
 #. module: openacademy
 #: model_terms:ir.ui.view,arch_db:openacademy.wizard_form_view
 msgid "Subscribe"
-msgstr ""
+msgstr "Suscribir"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_session__taken_seats
 msgid "Taken seats"
-msgstr ""
+msgstr "Asientos Reservados"
 
 #. module: openacademy
 #: model:res.partner.category,name:openacademy.teacher1
 msgid "Teacher / Level 1"
-msgstr ""
+msgstr "Profesor / Nivel 1"
 
 #. module: openacademy
 #: model:res.partner.category,name:openacademy.teacher2
 msgid "Teacher / Level 2"
-msgstr ""
+msgstr "Profesor / Nivel 2"
 
 #. module: openacademy
 #: model:ir.model.constraint,message:openacademy.constraint_openacademy_course_name_unique
 msgid "The course title must be unique"
-msgstr ""
+msgstr "El título del curso debe ser único"
 
 #. module: openacademy
 #: model:ir.model.constraint,message:openacademy.constraint_openacademy_course_name_description_check
 msgid "The title of the course should not be the description"
-msgstr ""
+msgstr "El título de curso no debe ser una descripción"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_openacademy_course__name
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #. module: openacademy
 #: model:ir.model,name:openacademy.model_openacademy_wizard
 msgid "Wizard: Quick Registration of Attendees to Sessions"
-msgstr ""
+msgstr "Asistente: Rápido registro de Personas a la Sesión"
 
 #. module: openacademy
 #: model:ir.model.fields,field_description:openacademy.field_res_partner__instructor
 #: model:ir.model.fields,field_description:openacademy.field_res_users__instructor
 msgid "instructor"
-msgstr ""
+msgstr "Intructor"
 
 #. module: openacademy
 #: model:ir.model,name:openacademy.model_openacademy_course
