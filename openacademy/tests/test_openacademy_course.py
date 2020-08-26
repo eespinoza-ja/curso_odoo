@@ -8,7 +8,7 @@ from openerp.tools import mute_logger
 class GlobalTestOpenAcademyCourse(TransactionCase):
     #Seudo-constructor test setUp Method
     def setUp(self):
-        #Define global variables to test methos
+        #Define global variables to test methods
         super(GlobalTestOpenAcademyCourse, self).setUp()
         self.variable = 'Hello World'
         self.course = self.env['openacademy.course']
